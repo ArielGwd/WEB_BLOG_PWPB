@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #f1f1f1;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-navigation li {
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+
+.header-navigation li a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+.article-data {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.article-data a {
+    text-decoration: none;
+}
+
+.article-title {
+    margin: 0;
+}
+
+.article-body {
+    margin: 0;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-button {
+    background: blueviolet;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.admin-page {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.admin-sidebar {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.admin-sidebar h4 {
+    margin: 0;
+}
+
+.admin-content {
+    width: 100%;
+}
+
+.admin-navigation {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.admin-navigation li a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+.table-data{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+}
+
+.table-data tr,
+.table-data th,
+.table-data td {
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
